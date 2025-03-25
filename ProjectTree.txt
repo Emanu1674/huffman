@@ -1,0 +1,13 @@
+ProjectTree/
+│── assets/				# Assets used before/during compilation
+│── runtime/			# Files loaded at runtime
+│	├── lista.txt
+│   ├── texto.txt
+│── src/            	# Source files (.c)
+│   ├── i_main.c
+│   ├── i_huffman.c
+│── include/        	# Header files (.h)
+│   ├── f_arqs.h
+│── build/       		# CMake output and executable
+│── CMakeLists.txt  	# Build configuration file for CMake
+│── ProjectTree.txt		# File that contains the project tree (this file)
