@@ -12,7 +12,6 @@
 
 int main( [[maybe_unused]]int argc, [[maybe_unused]]char** argv ) {
 
-    int teste = 50;
     I_ContaCaracteres();
     getchar();
     return 0;

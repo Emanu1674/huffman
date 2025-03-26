@@ -4,6 +4,6 @@
 #include <stdio.h>
 
 // Conta os Caracteres no arquivo
-FILE* I_ContaCaracteres();
+void I_ContaCaracteres();
 
 #endif
