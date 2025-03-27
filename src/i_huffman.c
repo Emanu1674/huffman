@@ -51,7 +51,7 @@ uint8_t* I_ContaCaracteres() {
     while( (c = fgetc(lista)) != EOF ) {
         // Verifica se o caractere é válido (é imprimível)
         // Alcance pode ser alterado dependendo da necessidade
-        if( c >= 32 && c <= 126 ) {
+        if( (c >= 32 && c <= 126) || (c>= 191 && c<= 255) ) {
             // Pra cada caractere na lista.txt, conta as ocorrência em texto.txt
             fseek(arq, 0, SEEK_SET); // Reseta o ponteiro pro começo de texto.txt
             uint32_t  cont = 0;
